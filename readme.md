@@ -21,3 +21,9 @@ source venv/bin/activate
 # References:
 
 https://www.youtube.com/watch?v=T1intZyhXDU&ab_channel=Fazt
+
+# Crear aplicaciones
+
+> python manage.py starapp blog
+
+# ORM
