@@ -26,4 +26,15 @@ https://www.youtube.com/watch?v=T1intZyhXDU&ab_channel=Fazt
 
 > python manage.py starapp blog
 
-# ORM
+# migraciones
+Default database django's structure
+
+> python manage.py makemigrations
+>  python manage.py migrate
+
+Especify project myapp
+
+> python manage.py migrate myapp
+
+# create models
+myapp/models.py needs some changes
