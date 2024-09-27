@@ -38,3 +38,23 @@ Especify project myapp
 
 # create models
 myapp/models.py needs some changes
+
+# store data
+> python manage.py shell
+
+>>> from  myapp.models import Project, Task
+>>> p = Project(name='aplicacion movil')
+>>> p
+<Project: Project object (None)>
+>>> p.save()
+
+# creat task project
+
+>>> p=Project.objects.get(id=1)
+>>> p
+<Project: Project object (1)>
+>>> p.task_set.all()
+<QuerySet []>
+>>> p.task_set.create(title="descargar id")
+<Task: Task object (1)>
+>>> 
