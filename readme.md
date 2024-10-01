@@ -22,6 +22,10 @@ source venv/bin/activate
 
 https://www.youtube.com/watch?v=T1intZyhXDU&ab_channel=Fazt
 
+https://www.youtube.com/watch?v=tQZy0U8s9LY&t=1448s&ab_channel=HolaMundo
+
+https://www.youtube.com/watch?v=swdcD6OPMlk&ab_channel=ATLAcademy%28byLucasMoy%29
+
 # Crear aplicaciones
 
 > python manage.py starapp blog
