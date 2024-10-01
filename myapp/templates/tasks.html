@@ -4,6 +4,11 @@
 {% for task in tasks %}
 <div>
     <h1>{{ task.title }}</h1>
+    {% if task.done == False %}
+    <p> Tarea Pendiente 🕑</p>
+    {% else %}
+    <p> Tarea Realizada</p>
+    {% endif %}
     <p>{{ task.description }}</p>
     <p>Project: {{ task.project.name }}</p>
 </div>
