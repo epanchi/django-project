@@ -76,5 +76,7 @@ myapp/models.py needs some changes
 > Watching for file changes with StatReloader
 > Performing system checks...
 
+# Render jinja
+
 login and access
 http://127.0.0.1:8000/admin

@@ -21,6 +21,5 @@ from django.urls import path, include
 """ define prefix """
 urlpatterns = [
     path('admin/', admin.site.urls),
-
     path ('', include('myapp.urls'))
 ]
