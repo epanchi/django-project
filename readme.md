@@ -26,6 +26,8 @@ https://www.youtube.com/watch?v=tQZy0U8s9LY&t=1448s&ab_channel=HolaMundo
 
 https://www.youtube.com/watch?v=swdcD6OPMlk&ab_channel=ATLAcademy%28byLucasMoy%29
 
+https://www.youtube.com/watch?v=7XO1AzwkPPE&list=PLU8oAlHdN5BmfvwxFO7HdPciOCmmYneAB&ab_channel=pildorasinformaticas
+
 # Crear aplicaciones
 
 > python manage.py starapp blog
